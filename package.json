@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
- "scripts": {
-  "dev": "svelte-kit sync && vite dev",
-  "build": "svelte-kit sync && vite build",
+"scripts": {
+  "dev": "vite dev",
+  "build": "npx svelte-kit sync && vite build",
   "preview": "vite preview"
 },
   "devDependencies": {
