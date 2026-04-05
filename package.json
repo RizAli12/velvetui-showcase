@@ -5,7 +5,7 @@
   "type": "module",
 "scripts": {
   "dev": "vite dev",
-  "build": "npx svelte-kit sync && vite build",
+  "build": "node node_modules/@sveltejs/kit/svelte-kit.js sync && vite build",
   "preview": "vite preview"
 },
   "devDependencies": {
